@@ -1,0 +1,13 @@
+/*
+ * Copyright (c) 2025 Ac6
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+&flexcomm2 {
+	mpu6050@68 {
+		compatible = "invensense,mpu6050";
+		reg = <0x68>;
+		status = "okay";
+	};
+};

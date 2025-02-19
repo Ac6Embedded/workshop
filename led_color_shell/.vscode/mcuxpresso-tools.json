@@ -1,0 +1,20 @@
+{
+  "version": "24.9",
+  "toolchainPath": "C:/Users/RoyJamil/zephyr-sdk-0.17.0/arm-zephyr-eabi",
+  "linkedProjects": [],
+  "trustZoneType": "none",
+  "multicoreType": "none",
+  "debug": {
+    "linkserver": {},
+    "pemicro": {},
+    "segger": {
+      "device": "RW612"
+    }
+  },
+  "projectType": "zephyr-freestanding",
+  "sdk": {
+    "version": "4.0.0",
+    "path": "c:\\Users\\RoyJamil\\Desktop\\nxp_workshop\\zephyr_repo",
+    "boardId": "frdm_rw612"
+  }
+}

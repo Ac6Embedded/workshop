@@ -1,0 +1,30 @@
+/*
+ * Copyright (c) 2025 Ac6
+ *
+ * SPDX-License-Identifier: Apache 2.0
+ */
+
+/ {
+    aliases {
+        led1 = &red_led;
+        led2 = &blue_led;
+    };
+
+    leds {
+        compatible = "gpio-leds";
+        red_led: led_0 {
+            gpios = <&hsgpio0 1 0>;
+        };
+        blue_led: led_2 {
+            gpios = <&hsgpio0 0 0>;
+        };
+    };
+};
+
+&flexcomm2 {
+    mpu6050@68 {
+        compatible = "invensense,mpu6050";
+        reg = <0x68>;
+        status = "okay";
+    };
+};
